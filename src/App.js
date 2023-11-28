@@ -1,9 +1,8 @@
-
-
+import NavBar from "./pages/nav/navSection";
 function App() {
   return (
     <div className="App">
-     WELCOME TO BLUMA
+      <NavBar />
     </div>
   );
 }

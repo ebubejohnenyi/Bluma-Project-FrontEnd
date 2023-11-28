@@ -1,0 +1,7 @@
+.cards {
+  border: 2px solid red;
+  width: 700px;
+}
+.cards .card-img {
+  width: 100%;
+}
