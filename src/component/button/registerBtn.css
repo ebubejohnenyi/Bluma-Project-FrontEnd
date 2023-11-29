@@ -1,0 +1,9 @@
+.register-btn {
+}
+.register-btn button {
+  background-color: #aa0de1;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  border-radius: 10px;
+}
