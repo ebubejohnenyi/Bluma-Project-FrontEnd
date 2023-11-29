@@ -3,8 +3,12 @@ import SearchBar from "../../component/searchBar";
 import NavSectionThree from "../../component/notification";
 import NavigationLinks from "../../component/links";
 import CardSection from "../pictureCards";
+import HeroNavigations from "../pictureCards/cards/navigation";
+import HeroButton from "../pictureCards/cards/button";
+import LoginBtn from "../../component/button/loginBtn";
+import RegisterBtn from "../../component/button/registerBtn";
 import { Container } from "./style";
-import "./style.css"
+import "./style.css";
 import HeroSection from "../hero";
 function NavBar() {
   return (
@@ -12,6 +16,7 @@ function NavBar() {
       <Container>
         <LogoButton />
         <SearchBar />
+        {/* <LoginBtn/> */}
         <NavSectionThree />
         <NavigationLinks />
       </Container>
@@ -29,8 +34,10 @@ function NavBar() {
           <a href="#">About us</a>
         </li>
       </div>
-      <HeroSection/>
-      <CardSection/>
+      <HeroSection />
+      <HeroButton/>
+      <HeroNavigations />
+      <CardSection />
     </>
   );
 }

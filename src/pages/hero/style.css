@@ -11,14 +11,17 @@
   margin: 10rem auto;
   text-align: center;
   padding: 3rem 5rem;
-  width: fit-content;
+  width: 75%;
   background-color: rgba(0, 0, 0, 0.42);
   font-size: 24px;
+}
+.hero-section .content p{
+  font-size: 20px;
 }
 .hero-section .hero-btn{
     background: rgba(170, 13, 225, 0.63);
     color: #ffff;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 15px;
     padding: 10px 20px;
     outline: none;

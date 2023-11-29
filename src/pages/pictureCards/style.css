@@ -1,4 +1,16 @@
 .card-section{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* border: 2px solid blue; */
+    width: fit-content;
+    margin: auto;
+    gap: 2rem;
+}
+@media (max-width: 1223px){
+    .card-section{
+        display: block;
+        width: fit-content;
+        margin: auto;
+        gap: 2rem;
+    }
 }
