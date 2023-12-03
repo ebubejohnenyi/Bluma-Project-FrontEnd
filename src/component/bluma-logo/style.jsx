@@ -1,8 +1,10 @@
 import styled from "styled-components";
 export const LogoBtn = styled.button`
   font-size: 20px;
-  padding: 10px 1rem;
+  padding: 10px;
   outline: none;
+  margin: 10px;
+  font-weight: bold;
   background-color: transparent;
   border: 2px solid transparent;
 `;

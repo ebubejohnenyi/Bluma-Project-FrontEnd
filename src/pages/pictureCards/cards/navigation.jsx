@@ -1,10 +1,11 @@
-import "./style.css"
+import {Link} from "react-router-dom";
+import "../cards/navigation.css";
 function HeroNavigations(){
     return(
         <div className="navigations">
-            <button>Post</button>
-            <button>Feature</button>
-            <button>Recent</button>
+            <Link style={{textDecoration: 'none'}} to="#"><li>POST</li></Link>
+            <Link style={{textDecoration: 'none'}} to="#"> <li>FEATURE</li></Link>
+            <Link style={{textDecoration: 'none'}} to="#"><li>RECENT</li> </Link>
         </div>
     )
 }

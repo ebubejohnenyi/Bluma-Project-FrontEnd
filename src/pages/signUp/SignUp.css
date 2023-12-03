@@ -1,0 +1,59 @@
+.signUpPage{
+    display: flex;
+    padding: 10px;
+    background-color: aliceblue;
+    width: fit-content;
+    margin: auto;
+}
+#imageholder img{
+    padding: 5px;
+    width: 400px;
+    height: 500px;
+    border: none;
+}
+.signUpPage #textArea input{
+    width: 400px;
+    height: 8vh;
+    margin: 10px;
+    border: 2px rgb(159, 66, 247) solid;
+    padding: 5px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: transparent;
+}
+#textArea button{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px rgb(159, 66, 247) solid;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 1s;
+}
+#textArea button:hover{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px rgb(159, 66, 247) solid;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(153, 60, 239);
+}
+#textArea h3{
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(152, 51, 246);
+    font-weight: bold;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

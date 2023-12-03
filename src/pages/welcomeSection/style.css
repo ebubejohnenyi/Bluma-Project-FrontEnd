@@ -1,0 +1,38 @@
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../../assets/tradition.png);
+  height: 50rem;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border: 1px solid transparent;
+  color: #ffff;
+}
+.hero-section .content {
+  margin: 10rem auto;
+  text-align: center;
+  padding: 3rem 5rem;
+  width: 75%;
+  background-color: rgba(0, 0, 0, 0.42);
+  font-size: 24px;
+}
+.hero-section .content p{
+  font-size: 20px;
+}
+.hero-section h1{
+  font-size: 40px;
+  font-weight: normal;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.content button{
+  padding: 20px;
+  width: 30%;
+  border-radius: 50px;
+  margin: 20px;
+  border: none;
+  background-color: rgba(144, 36, 244, 0.672);
+  color: white;
+  font-size: 17px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

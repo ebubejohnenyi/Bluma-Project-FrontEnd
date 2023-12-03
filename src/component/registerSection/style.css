@@ -1,0 +1,45 @@
+/* .nav-notification{
+    gap: 1.5rem;
+} */
+.signUpAndLoginInBtn #signUpBtn{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border: none;
+    background-color: rgb(153, 55, 246);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    transition: 0.7s;
+}
+#signUpBtn:hover{
+    padding: 10px;
+    margin: 10px;
+    width: 125px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+#loginBtn{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    transition: 0.7s;
+}
+#loginBtn:hover{
+    padding: 10px;
+    margin: 10px;
+    width: 125px;
+    border: none;
+    background-color: rgb(153, 55, 245);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px; 
+}

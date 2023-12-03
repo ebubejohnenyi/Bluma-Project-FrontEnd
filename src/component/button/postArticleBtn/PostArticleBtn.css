@@ -1,0 +1,90 @@
+.cards {
+    width: 700px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(153, 150, 153, 1);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(153, 150, 153, 1);
+    box-shadow: 10px 10px 5px 0px rgba(153, 150, 153, 1);
+  }
+.hero-btn{
+  padding: 10px;
+  justify-content: right;
+  display: flex;
+  width: 100%;
+  margin: 10px;
+}
+
+#actualBtn{
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  height: 8vh;
+  border: none;
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+  transition: 0.6s;
+}
+#actualBtn:hover{
+  text-align: center;
+  padding: 10px;
+  width: 250px;
+  height: 8vh;
+  border: none;
+  background-color: black;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  cursor: pointer;
+  position: absolute;
+}
+.hero-btn #actualBtn #penArea{
+  position: relative;
+  bottom: 15%;
+  padding: 10px;
+  height: 6.5vh;
+  width: 50px;
+}
+#actualBtn #penArea img{
+  width: 30px;
+}
+#articleArea{
+  margin: 6px;
+}
+
+
+
+  .cards .card-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .cards .text-content {
+    padding: 1rem;
+  }
+  .cards button {
+    float: right;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 1rem;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid transparent;
+    margin: 0.5rem;
+  }
+  .cards p {
+    margin: 1rem 0;
+  }
+  @media (max-width: 1223px){
+    .cards{
+       margin-bottom: 1rem;
+    }
+  }
+  

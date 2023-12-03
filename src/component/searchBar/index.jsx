@@ -1,15 +1,11 @@
-import { Container, SearchIcon, SearchText } from "./style";
 import icon from "../../assets/search 1.svg";
+import "../../component/searchBar/style.css"; 
 function SearchBar() {
   return (
-    <>
-      <Container>
-        <SearchText>Search here</SearchText>
-        <SearchIcon>
-          <img src={icon} alt="" />
-        </SearchIcon>
-      </Container>
-    </>
+    <div className="searchArea">
+      <input type="search" placeholder="Search Here" />
+      <spam><img src={icon}></img></spam>
+    </div>
   );
 }
 export default SearchBar;
